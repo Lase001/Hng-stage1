@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+  <link rel="stylesheet" href="./index.css" type="text/css">
+  <title>Kiel_Dev - Profile Card</title>
+</head>
+<body>
+
+   <!-- Navbar -->
+ <nav class="navbar">
+  <div class="nav-container">
+    <h1 class="logo">Kiel_Dev</h1>
+    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">
+      ☰
+    </button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+  
+   <!-- Profile Card -->
+
+  
+  <article data-testid="test-profile-card" class="profile-card">
+    <figure class="avatar-section">
+  <img src="./file_0000000002dc620aa4f14f3388e1e472.png" alt="profile photo" data-testid="test-user-avatar">
+</figure>
+
+    <header>
+      <h2 data-testid="test-user-name">Eyiowuawi Idris (Kiel_Dev)</h2>
+    </header>
+
+  <p data-testid="test-user-bio">
+    I'm Kiel_Dev - a passionate photography, frontend developer, and lifelong learner who loves creating meaningful visual and digital experiences.I believe in calm energy , continuous growth,and sharing creativity with purpose.
+  </p>
+
+  <p>
+    Current Time (ms):
+    <span data-testid="test-user-time" id="user-time"></span>
+  </p>
+
+  <nav aria-label="Social links">
+    <ul data-testid="test-user-social-links" class="social-links">
+
+      <li><a href="https://github.com/Lase001" target="_blank" rel="noopener noreferrer" data-testid="test-user-social-github" ><i class="fa-brands fa-github"></i></a></li>
+      <li><a href="https://x.com/eyiowuawi_idris" target="_blank" rel="noopener noreferrer" data-testid="test-user-social-twitter" ><i class="fa-brands fa-x-twitter"></i></a></li>
+      <li><a href="https://www.linkedin.com/in/eyiowuawi-idris-123456789/" target="_blank" rel="noopener noreferrer" data-testid="test-user-social-linkedin" ><i class="fa-brands fa-linkedin-in"></i></a></li>
+
+    </ul>
+  </nav>
+
+
+
+  <section>
+    <h3>Hobbies</h3>
+    <ul data-testid="test-user-hobbies">
+      <li>Photography📷</li>
+      <li>Frontend Developer 👨‍💻</li>
+      <li>Reading 📖</li>
+      <li>Learning new creative skills </li>
+    </ul>
+  </section>
+
+
+  <section>
+    <h3>Dislikes</h3>
+    <ul data-testid="test-user-dislikes">
+      <li>Fighting</li>
+    </ul>
+  </section>
+  </article>
+
+</body>
+<script src="./index.js" defer></script>
+<script src="./nav.js"></script>
+
+</html>
